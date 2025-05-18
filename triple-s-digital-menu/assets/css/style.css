@@ -1,0 +1,49 @@
+html {
+  box-sizing: border-box;
+}
+  *,
+  *:before,
+  *:after {
+  box-sizing: inherit;
+}
+  
+/*  --------------- Utility Classes -----------------  */
+  
+:root{
+--main-bg-color: #ffffff;
+--first-color: #FCEBB8;
+--second-color: #FC465E;
+--third-color: #E7F7FF;
+--forth-color: #0B3290;
+--primary-typo-color: #000000;
+--second-type-color: #3DA2D9;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+  
+.container {
+    width: 100%;
+    max-width: 440px;
+    margin: 0 auto;
+    background:#FC465E;      
+}
+
+#primary{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.logo img{
+    grid-column: 1, 4;
+}
+
+.name img{
+    grid-column: 2, 4;
+}
+
+.hamburger{
+    grid-column:3, 4;
+}
