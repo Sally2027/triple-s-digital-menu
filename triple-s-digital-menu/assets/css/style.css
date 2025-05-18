@@ -28,22 +28,32 @@ body{
     width: 100%;
     max-width: 440px;
     margin: 0 auto;
-    background:#FC465E;      
 }
 
 #primary{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: -40px;
+    background: var(--first-color);      
 }
 
-.logo img{
-    grid-column: 1, 4;
+.logo{
+    margin: 0;
+    padding: 0;
 }
 
-.name img{
-    grid-column: 2, 4;
+.name{
+    margin-left: 30px;
+    margin-bottom: -20px;
+}
+
+.navbar{
+    margin-right: 30px;
+    margin-top: 60px;
 }
 
 .hamburger{
-    grid-column:3, 4;
+    font-size: 1.8rem;
+    cursor: pointer;
 }
