@@ -40,12 +40,12 @@ body{
 
 .logo{
     margin: 0;
-    padding: 0;
+    padding-top: 8px;
 }
 
 .name{
     margin-left: 30px;
-    margin-bottom: -20px;
+    margin-bottom: -30px;
 }
 
 .navbar{
@@ -57,3 +57,69 @@ body{
     font-size: 1.8rem;
     cursor: pointer;
 }
+
+.intro h1{
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.4rem;
+    text-align: center;
+}
+
+.intro h2{
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.2rem;
+    text-align: center;
+    color: var(--second-type-color);
+}
+
+.content{
+    background: var(--third-color);
+}
+
+.headers h1{
+    background: var(--second-color);
+    padding: 10px;
+    text-align: center;
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1.9rem;
+}
+
+#table{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    margin-top: -25px;
+    list-style: none;
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+#table ul{
+    list-style: none;
+}
+
+.left{
+    grid-column: 1/10;
+    margin-left: -10px;
+}
+
+.right{
+    grid-column: 10/12;
+}
+
+.multiple-items {
+  position: relative;
+  max-width: 100%;
+  margin: auto;
+}
+
+.multiple-items div {
+  margin: 10px;
+}
+
