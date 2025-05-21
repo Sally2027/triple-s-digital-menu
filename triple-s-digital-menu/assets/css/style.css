@@ -158,9 +158,9 @@ body{
     background-color: #000000;
 }
 
+
 .left4{
     grid-column: 1/8;
-    margin-left: -10px;
 }
 
 .right4{
