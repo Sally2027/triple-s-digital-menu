@@ -60,6 +60,8 @@ body{
     cursor: pointer;
 }
 
+/*  ---------------Manu Sections----------------  */
+
 .intro h1{
     font-family: "Lobster", sans-serif;
     font-weight: 400;
@@ -166,6 +168,8 @@ body{
 .right4{
     grid-column: 8/12;
 }
+
+/*  ---------------Footer-----------------  */
 
 footer{
     display: grid;
@@ -296,4 +300,67 @@ footer a:hover{
 	transition: all 200ms linear;
 }
 
+/* Medium devices - around 380px */
+@media (max-width: 380px) {
+  .name {
+    margin-left: 10px;
+    font-size: 1.8rem;
+  }
+
+  .navbar {
+    margin-top: 40px;
+    margin-right: 20px;
+  }
+
+  .intro h1, .intro h2 {
+    font-size: 1.8rem;
+  }
+
+  #table {
+    grid-template-columns: repeat(6, 1fr); /* fewer columns */
+  }
+
+  .left, .left2, .left3, .left4 {
+    grid-column: 1 / 6;
+  }
+
+  .right, .right2, .right3, .right4 {
+    grid-column: 6 / 7;
+  }
+}
+
+/* Smallest devices - around 320px */
+@media (max-width: 320px) {
+  .name {
+    margin-left: 0;
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  .navbar {
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+
+  .intro h1, .intro h2 {
+    font-size: 1.5rem;
+  }
+
+  footer h4, footer h3, footer p {
+    font-size: 0.9rem;
+  }
+
+  .icons {
+    margin-left: 30px;
+  }
+
+  #table {
+    grid-template-columns: 1fr;
+  }
+
+  .left, .right, .left2, .right2, .left3, .right3, .left4, .right4 {
+    grid-column: 1 / -1;
+    margin-left: 0;
+  }
+}
 
