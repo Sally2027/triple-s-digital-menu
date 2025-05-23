@@ -1,12 +1,38 @@
+function toggleMenu() {
+  const nav = document.querySelector(".nav-links");
+  nav.classList.toggle("active");
+}
+
 $(document).ready(function() {
   $('.multiple-items').slick({
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 1,
-    arrows: false, 
+    arrows: false,
     dots: true,
+    responsive: [
+      {
+        breakpoint: 441,
+        settings: {
+          slidesToShow: 3
+        }
+      },
+      {
+        breakpoint: 381,
+        settings: {
+          slidesToShow: 2
+        }
+      },
+      {
+        breakpoint: 321,
+        settings: {
+          slidesToShow: 1
+        }
+      }
+    ]
   });
 });
+
 
 $(document).ready(function() {
   document.getElementById("year").textContent = new Date().getFullYear();
