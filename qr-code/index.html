@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link href="assets/css/style.css" rel="stylesheet">
+  <title>Triple S Digital Menu QR Code</title>
+</head>
+<body>
+  <div id="qr"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/kjua@0.9.0/dist/kjua.min.js"></script>
+  <script>
+    const qr = kjua({
+      text: "https://sally2027.github.io/triple-s-digital-menu/triple-s-digital-menu/index.html", // your permanent URL
+      render: "svg",      // <-- outputs SVG
+      size: 256,
+      crisp: true,
+      ecLevel: "H",       // highest error correction
+      fill: "#000000",    // QR "ink" color
+      back: "#ffffff"     // background color
+    });
+    document.getElementById("qr").appendChild(qr);
+  </script>
+  <div class="button">
+    <button>SCAN ME</button>
+  </div>
+
+</body>
+</html>
