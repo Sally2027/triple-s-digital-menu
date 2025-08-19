@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Sally Alazab">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@accessible360/accessible-slick@1.0.1/slick/slick.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@accessible360/accessible-slick@1.0.1/slick/accessible-slick-theme.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@accessible360/accessible-slick@1.0.1/slick/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.21.0/prism.min.js"></script>  
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/additional-methods.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Italianno&family=Lobster&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Dirt&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Triple S Deli Digital Menu</title>
+</head>
+<body>
+    <main class="container">
+        <header id="primary">
+             <div>
+                <figure class="logo" onclick="window.location.href='index.html'" >
+                    <img src="assets/img/logo.png" width="120px" class="logo">
+                    <img src="assets/img/name.png" width="160px" class="name">
+                </figure>
+            </div>
+               <nav class="navbar">
+                    <div class="hamburger" onclick="toggleMenu()">
+                        &#9776;
+                    </div>
+                    <ul class="nav-links">
+                        <li><a href="#content" class="main">Breakfast</a></li>
+                        <li><a href="#content2" class="main">Fresh Cut Meats</a></li>
+                        <li><a href="#content3" class="main">Fresh Salad</a></li>
+                        <li><a href="#content4" class="main">Sandwiches</a></li>
+                        <li><a href="#content5" class="main">Starters </a></li>
+                        <li><a href="#content6" class="main">Fish & Chicken </a></li>
+                        <li><a href="#content7" class="main">Shrimp</a></li>
+                        <li><a href="#content8" class="main">Wings</a></li>
+                        <li><a href="#content9" class="main">Extra</a></li>
+                    </ul>
+                </nav>
+        </header>
+        <section class="intro">
+            <h1> Welcome To Triple S </h1>
+            <h2>Digital Menu</h2>
+        </section>
+        <section id="content">
+            <div class="headers">
+                <h1>BREAKFAST</h1>
+            </div>
+            <div id="table">
+                <ul class="left">
+                    <li>BREAKFAST PIZZA</li>
+                    <li>BACON, EGG & CHEESE BISCUIT</li>
+                    <li>SAUSAGE, EGG & CHEESE BISCUIT</li>    
+                    <li>BAGEL SAUSAGE, EGG & CHEESE</li>
+                    <li>BREAKFAST BURRITO</li>
+                    <li>BAGEL BACON, EGG & CHEESE</li>
+                    <li>SINGLE BISCUITS WITH GRAVY</li>
+                    <li>DOUBLE BISCUITS WITH GRAVY</li>
+                </ul>
+                <ul class="right">
+                    <li>$16.00</li>
+                    <li>$3.29</li>
+                    <li>$3.29</li>
+                    <li>$4.99</li>
+                    <li>$3.69</li>
+                    <li>$4.99</li>
+                    <li>$2.99</li>
+                    <li>$4.49</li>
+                </ul>
+            </div>
+        </section>
+        <section class="multiple-items">
+            <div>
+                <img src="assets/img/slick-1.JPG" width="120px">
+            </div>
+            <div>
+                <img src="assets/img/slick-3.JPG" width="120px">
+            </div>
+            <div>
+                <img src="assets/img/slick-2.JPG" width="120px" height="90px">
+            </div>
+            <div>
+                <img src="assets/img/slick-5.JPG" width="120px" height="90px">
+            </div>
+        </section>
+        <section id="content2">
+            <div class="headers">
+                <h1>FRESH CUT MEATS</h1>
+            </div>
+            <div id="table">
+                <ul class="left2">
+                    <li>CAJUN TURKEY</li>
+                    <li>SMOKED TURKEY</li>
+                    <li>SMOKED HAM</li>    
+                    <li>HAM</li>
+                    <li>ROAST BEEF</li>
+                    <li>PASTRAMI</li>
+                    <li>SALAMI</li>
+                    <li>BQQ LOAF</li>
+                    <li>LIVER CHEESE</li>
+                    <li>BOLOGNA</li>
+                </ul>
+                <ul class="right2">
+                    <li>$10.99lb</li>
+                    <li>$10.99lb</li>
+                    <li>$9.99lb</li>
+                    <li>$8.99lb</li>
+                    <li>$11.99lb</li>
+                    <li>$11.99lb</li>
+                    <li>$8.99lb</li>
+                    <li>$8.99lb</li>
+                    <li>$8.99lb</li>
+                    <li>$8.99lb</li>
+                </ul>
+            </div>
+        </section>
+        <section class="multiple-items">
+            <div>
+                <img src="assets/img/meat6.JPG" width="120px">
+            </div>
+            <div>
+                <img src="assets/img/meat2.JPG" width="120px">
+            </div>
+            <div>
+                <img src="assets/img/meat1.JPG" width="120px" height="160px">
+            </div>
+            <div>
+                <img src="assets/img/meat3.JPG" width="120px">
+            </div>
+            <div>
+                <img src="assets/img/meat4.JPG" width="120px">
+            </div>
+            <div>
+                <img src="assets/img/meat5.JPG" width="120px">
+            </div>
+        </section>
+        <section id="content3">
+            <div class="headers">
+                <h1>FRESH SALAD</h1>
+            </div>
+            <div id="table">
+                <ul class="left3">
+                    <li>CHICKEN SALAD</li>
+                    <li>CAJUN TURKEY</li>
+                    <li>SMOKED TURKEY<li>    
+                    <li>SMOKED HAM</li>
+                </ul>
+                <ul class="right3">
+                    <li>$7.99 S $11.99 L</li>
+                    <li>$7.99 S $11.99 L</li>
+                    <li>$7.99 S $11.99 L</li>
+                    <li>$7.99 S $11.99 L</li>
+                </ul>
+            </div>
+        </section>
+        <section class="ingred">
+            <h2>INGREDIENTS</h2><hr>
+            <p>LETTUCE, TOMATOES, PICKLES, JALAPE-NOS, BANANA PEPPER OLIVES, ONIONS, CROUTON, CHEESE, BACON BITS </p>
+        </section>
+        <section class="multiple-items">
+            <div>
+                <img src="assets/img/salad1.JPG" width="120px">
+            </div>
+            <div>
+                <img src="assets/img/salad3.JPG" width="120px">
+            </div>
+            <div>
+                <img src="assets/img/salad2.JPG" width="120px" height="160px">
+            </div>
+            <div>
+                <img src="assets/img/salad4.JPG" width="120px">
+            </div>
+            <div>
+                <img src="assets/img/salad2.JPG" width="120px" height="160px">
+            </div>
+        </section>
+         <section id="content4">
+            <div class="headers">
+                <h1>SANDWICHES</h1>
+            </div>
+            <div id="table">
+                <ul class="left3">
+                    <li>CHICKEN SALAD</li>
+                    <li>CAJUN TURKEY</li>
+                    <li>SMOKED TURKEY</li>    
+                    <li>ROAST BEEF</li>
+                    <li>PASTRAMI</li>
+                    <li>HAM</li>
+                    <li>SMOKED HAM</li>
+                    <li>BLT</li>
+                    <li>TUNA SALAD</li>
+                </ul>
+                <ul class="right3">
+                    <li>$7.99 SUB $8.99</li>
+                    <li>$7.99 SUB $8.99</li>
+                    <li>$7.99 SUB $8.99</li>
+                    <li>$7.99 SUB $8.99</li>
+                    <li>$7.99 SUB $8.99</li>
+                    <li>$7.99 SUB $8.99</li>
+                    <li>$7.99 SUB $8.99</li>
+                    <li>$7.99 SUB $8.99</li>
+                    <li>$7.99 SUB $8.99</li>
+                </ul>
+            </div>
+        </section>
+        <section class="ingred">
+            <h2>INGREDIENTS</h2><hr>
+            <p>LETTUCE, TOMATOES, PICKLES, ONIONS, CHEESE, MAYONNAISE, MUSTARD </p>
+        </section>
+        <section class="multiple-items">
+            <div>
+                <img src="assets/img/sand1.JPG" width="120px">
+            </div>
+            <div>
+                <img src="assets/img/sand5.JPG" width="120px">
+            </div>
+            <div>
+                <img src="assets/img/sand3.JPG" width="120px">
+            </div>
+            <div>
+                <img src="assets/img/sand2.JPG" width="120px">
+            </div>
+            <div>
+                <img src="assets/img/sand4.JPG" width="120px">
+            </div>
+        </section>
+        <section id="content5">
+            <div class="headers">
+                <h1>STARTERS</h1>
+            </div>
+            <div id="table">
+                <ul class="left4">
+                    <li>CHEEESE BURGER</li>
+                    <li>DOUBLE CHEESEBURGER</li>
+                    <li>PHILLY STEAK <li>   
+                    <li>PHILLY CHICKEN</li>
+                    <li>LOADED PHILLY</li>
+                    <li>CRISPY CHICKEN</li>
+                    <li>SHAWARMA</li>
+                    <li>GYRO</li>
+                    <li>**Extra meat $4</li>
+                </ul>
+                <ul class="right4">
+                    <li>$5.99M$8.99</li>
+                    <li>$8.99M$11.99</li>
+                    <li>$8.99M$10.99</li>
+                    <li>$8.99M$10.99</li>
+                    <li>$10.99</li>
+                    <li>$5.99M$8.99</li>
+                    <li>$8.99M$10.99</li>
+                    <li>$8.99M$10.99</li>
+                </ul>
+            </div>
+        </section>
+        <section class="multiple-items">
+            <div>
+                <img src="assets/img/star1.JPG" width="120px">
+            </div>
+            <div>
+                <img src="assets/img/star2.JPG" width="120px" height="90px">
+            </div>
+            <div>
+                <img src="assets/img/star3.JPG" width="120px">
+            </div>
+            <div>
+                <img src="assets/img/star4.JPG" width="120px" height="90px">
+            </div>
+            <div>
+                <img src="assets/img/star5.JPG" width="120px" height="90px">
+            </div>
+            <div>
+                <img src="assets/img/star6.JPG" width="120px" height="90px">
+            </div>
+        </section>
+        <section id="content6">
+            <div class="headers">
+                <h1>FISH & CHICKEN </h1>
+            </div>
+            <div id="table">
+                <ul class="left3">
+                    <li>3pc Fish </li>
+                    <li>4pc Fish</li>
+                    <li>8pc Fish<li>    
+                    <li>3pc Chicken</li>
+                    <li>4pc Chicken</li>
+                    <li>8pc Chicken</li>
+                    <li>3pc Tenders</li>
+                    <li>6pc Tenders</li>
+                </ul>
+                <ul class="right3">
+                    <li>$8.99M$11.99</li>
+                    <li>$10.99M$14.99</li>
+                    <li>$17.99M$20.99</li>
+                    <li>$7.99M$10.99</li>
+                    <li>$9.99M$12.99</li>
+                    <li>$17.99M$20.99</li>
+                    <li>$6.49M$8.99</li>
+                    <li>$11.99M$13.99</li>
+                </ul>
+            </div>
+        </section>
+        <section class="multiple-items">
+            <div>
+                <img src="assets/img/fc1.JPG" width="120px" height="100px">
+            </div>
+            <div>
+                <img src="assets/img/fc2.JPG" width="120px" height="100px">
+            </div>
+            <div>
+                <img src="assets/img/fc4.JPG" width="120px" height="100px">
+            </div>
+            <div>
+                <img src="assets/img/fc3.JPG" width="120px" height="100px">
+            </div>
+        </section>
+        <section id="content7">
+            <div class="headers">
+                <h1>SHRIMP</h1>
+            </div>
+            <div id="table">
+                <ul class="left3">
+                    <li>10pc Shrimp</li>
+                    <li>15pc Shrimp</li>
+                    <li>2pc Fish & 5pc Shrimp<li>    
+                    <li>3pc Fish & 10pc Shrimp</li>
+                </ul>
+                <ul class="right3">
+                    <li>$9.99M$12.99</li>
+                    <li>$14.99M$16.99</li>
+                    <li>M$16.99</li>
+                    <li>M$22.99</li>
+                </ul>
+            </div>
+        </section>
+        <!--
+        <section class="multiple-items">
+            <div>
+                <img src="assets/img/slick-1.JPG" width="120px">
+            </div>
+            <div>
+                <img src="assets/img/slick-3.JPG" width="120px">
+            </div>
+            <div>
+                <img src="assets/img/slick-2.JPG" width="120px">
+            </div>
+            <div>
+                <img src="assets/img/slick-5.JPG" width="120px">
+            </div>
+        </section> -->
+        <section id="content8">
+            <div class="headers">
+                <h1>WINGS</h1>
+            </div>
+            <div id="table">
+                <ul class="left3">
+                    <li>5pc Wings</li>
+                    <li>10pc Wings</li>
+                    <li>15pc Wings<li>    
+                    <li>20pc Wings</li>
+                    <li>25pc Wings</li>
+                    <li>30pc Wings</li>
+                </ul>
+                <ul class="right3">
+                    <li>$7.59M$9.99</li>
+                    <li>$13.99M$15.49</li>
+                    <li>$17.59M$19.49</li>
+                    <li>$23.39M$25.49</li>
+                    <li>$27.99</li>
+                    <li>$33.59</li>
+                </ul>
+            </div>
+        </section>
+        <section class="multiple-items">
+            <div>
+                <img src="assets/img/wing1.JPG" width="120px" height="85px">
+            </div>
+            <div>
+                <img src="assets/img/wing3.JPG" width="120px">
+            </div>
+            <div>
+                <img src="assets/img/wing2.JPG" width="120px" height="85px">
+            </div>
+            <div>
+                <img src="assets/img/wing3.JPG" width="120px">
+            </div>
+        </section>
+        <section class="ingred">
+            <h2>WINGS SAUCES</h2><hr>
+            <p>NASHVILLE HOT, BBQ KOREAN, HOT HONEY, MANGO HABANERO, BUFFALO,GARLIC PARMESAN,HONEY SPRIRACHA, KICKED BOURBON, BBQ,LEMON PEPPER</p>
+        </section>
+        <section id="content9">
+            <div class="headers">
+                <h1>EXTRA</h1>
+            </div>
+            <div id="table">
+                <ul class="left3">
+                    <li>FRIES</li>
+                    <li>ONIONS RINGS</li>
+                    <li>HUSH PUPPIES<li>    
+                    <li>PIZZA STICK</li>
+                    <li>BURRITO</li>
+                    <li>CRAWFISH PIE</li>
+                    <li>BACON</li>
+                </ul>
+                <ul class="right3">
+                    <li>S $2.49 L$3.99</li>
+                    <li>S $2.79 L$4.29</li>
+                    <li>S $2.79 L$4.29</li>
+                    <li>$2.49</li>
+                    <li>$3.69</li>
+                    <li>$2.99</li>
+                    <li>$1</li>
+                </ul>
+            </div>
+        </section>
+        <section class="multiple-items">
+            <div>
+                <img src="assets/img/extra1.JPG" width="120px" height="160px">
+            </div>
+            <div>
+                <img src="assets/img/extra6.JPG" width="120px" height="160px">
+            </div>
+        </section>
+        <footer>
+            <div class="left-side">
+            <p>Call us and we will have your order ready for pick up</p>
+            <img src="assets/img/footer-pic.jpg" width="250px" length="50px">
+            <h4>&copy; <span id="year"></span> | Triple S LLC</h4>
+            </div>
+            <div class="right-side">
+            <h3>501-261-5007</h3>
+            <h3>
+            <a href="https://www.google.com/maps?q=24005+Arch+St+suit+12+Hensley+AR+72065" target="_blank" style="text-decoration: none; color: inherit;">
+            <i class="fa-solid fa-location-dot" style="margin-right: 8px;"></i>
+            24005 Arch St, suit 12 Hensley, AR 72065
+            </a>
+            </h3>
+            <div class="icons">
+                <a href="" target="_blank">
+                    <div class="fa-brands fa-facebook-f" style="font-size:24px;"></div>
+                </a>
+            </div>
+            </div>
+        </footer>
+         <!-- Back to Top Button -->
+        <div class="progress-wrap">
+	        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+		        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+	        </svg>
+        </div>
+    </main>
+</body>
+</html>
