@@ -1,9 +1,12 @@
 #qr{
     display: flex;
     justify-content: space-around;
-    padding-top: 70px;
+    padding-top: 20px;
 }
 
+h1{
+    text-align: center;
+}
 .button{
     text-align: center;
 }
