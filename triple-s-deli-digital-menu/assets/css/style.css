@@ -181,8 +181,9 @@ body{
   margin-left: -10px;
 }
 
-.right{
+.right1{
   grid-column: 10/12;
+  margin-left: -15px;
 }
 
 .multiple-items div{
@@ -234,6 +235,10 @@ body{
 
 .right4{
   grid-column: 8/12;
+}
+
+q{
+  color: #ffcb30;
 }
 
 /*  ---------------Footer-----------------  */
